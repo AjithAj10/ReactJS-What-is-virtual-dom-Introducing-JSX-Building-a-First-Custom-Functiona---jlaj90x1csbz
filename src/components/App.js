@@ -42,8 +42,8 @@ setnextVal(false);
     <button data-testid="button-next" disabled={nextVal}  onClick={next}>Next</button>
     <button data-testid="button-restart" disabled={preVal}  onClick={restart}>Restart</button>
 
-    <h1 ata-testid="title">{item.title}</h1>
-    <p ata-testid="text">{item.text}</p>
+    <h1 data-testid="title">{item.title}</h1>
+    <p data-testid="text">{item.text}</p>
     </>
   )
 }
