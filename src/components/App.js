@@ -1,8 +1,10 @@
 import React, {Component, useState} from "react";
-import Data from '../data';
+// import Data from '../data';
 import '../styles/App.css';
 
-const App = () => {
+const App = (props) => {
+  const Data = props.slides;
+  // console.log(props.slides);
   const [item,setItem] = useState(Data[0]);
   const [preVal,setpreVal] = useState(true);
   const [nextVal,setnextVal] = useState(false);
